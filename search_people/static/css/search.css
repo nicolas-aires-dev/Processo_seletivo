@@ -1,0 +1,83 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('/static/media/background.webp');
+}
+
+.register_card {
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 20px;
+    padding: 5px 15px 15px 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    width: fit-content;
+    height: fit-content;
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+}
+
+.register_card form{
+    padding-bottom: 50px;
+}
+
+#search_result{
+    color: black;
+    background-color:white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+#nome,
+#data_nasc,
+#cpf,
+#altura,
+#search-cpf{
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.300);
+    margin-bottom: 10px;
+}
+
+#sexo,
+#peso{
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.300);
+    margin-bottom: 10px;
+}
+
+
+
+.register_card button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(75, 75, 238);
+    font-size: 20px;
+    border: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+.register_card button:hover{
+    background-color: blue;
+}
